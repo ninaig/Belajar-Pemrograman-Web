@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		body{
+			width: 800px; /* ini buat ngatur lebarnya body atau tampilan yg putihnya itu */
+			margin: auto; /*ini buat ngatur posisi dari bodynya karena "auto" jadi dia automatis ke tengah */
+			font-family: arial; /*ini buat ngatur font stylenya*/
+
+		}
+		h1{
+			border-bottom: 2px solid red; /*ini buat nambahin garis dibawah h1*/
+		}
+		img{
+			position: absolute; /*ini buat ngatur posisi dari gambarnya karena "absolute" jadi dia posisinya 1 tingkat diatas elemen yg lain jd bebas mo kemana aja*/
+			margin-left: 50px; /*ini ngakalin biar gambarnya ke kanan jadi "margin-leftnya" di tambahin*/
+		}
+		.a table{ /*ini mksdnya table yg ada di div yg classnya a*/
+				  /*kalo . itu div kalo # itu id*/
+
+			margin-right: 100px; /*ini ngakalin biar gambarnya ke kiri jadi "margin-rightnya" di tambahin*/
+		}
+		.a td{
+			border-bottom: 1px solid; /*buat ngasih garis dibawahnya*/
+		}
+		table{
+			border-collapse: collapse;/*biar garisnya ga putus - putus*/
+		}
+	</style>
+</head> 
+<body>
+
+	<h1 align="center">Biodata Mahasiswa</h1>
+
+	<div class="a"> <!-- div ini fungsinya buat membungkus ke element yg ada di dalemnya -->
+					<!-- ibaratnya kalo mo mindahin baju kan ribet tuh mindahinnya satu" jadi di pindahinnya sama lemarinya aja wgwg -->
+	<table  cellpadding="5" align="center">
+	
+		<img src="fotonina.jpg" width="150px" height="220px">
+        <tr>
+            <td>Nama</td>
+			<td>: </td>
+			<td>Nina Indah Gusmiarti</td>
+		</tr>
+		<tr>
+            <td>NIM</td>
+			<td>:</td> 
+			<td>A12.2018.06020</td>
+		</tr>
+		<tr>
+			<td>Doswal</td>
+			<td>:</td>
+			<td>Florentina Esti Nilawati SH, MM </td>
+		</tr>
+		<tr>
+            <td>Status</td>
+			<td>:</td>
+			<td>Aktif</td>
+		</tr>
+		<tr>
+			<td>Alamat Semarang   </td>
+            <td>:</td>
+        	<td>JL. Griya Pra ...</td>
+		</tr>
+		<tr>
+            <td>Alamat Asal</td>
+			<td>:</td>
+			<td>Jl. Griya Pra ...</td>
+		</tr>
+		<tr>
+			<td>No. HP</td>
+			<td>:</td>
+			<td>085325994335</td>
+		</tr>
+		<tr>
+            <td>E-mail</td>
+            <td>:</td>
+            <td>112201806029@mhs.dinus.ac.id<br>
+			      ninaiigg@gmail</td>
+		</tr>
+		<tr>
+			<td>Agama</td>
+            <td>:</td> 
+        	<td>Islam</td>
+        </tr>
+    </table>
+	</div> <!-- jangan lupa ditutup lemarinya biar bajunya ga keluar" wgwg -->
+
+	<h3 align="center">Jadwal KRS</h3> <!-- ini tak ganti jadi h3 biar agak gede tulisanne -->
+	  <table border="1" cellpadding="5" align="center">
+        <tr bgcolor="grey">
+            <td> No</td>
+			<td> Kode Mata Kuliah</td>
+			<td> Kelompok</td>
+			<td> Mata Kuliah</td>
+			<td> SKS</td>
+			<td> Status</td>
+        </tr>
+        <tr>
+            <td> 1. </td>
+			<td> A12.66401</td>
+			<td> A12.6401U</td>
+			<td> ANALISA DAN PERANCANGAN SISTEM INFORMASI </td> 
+			<td> 4 </td>
+			<td> B </td>
+        </tr>
+		 <tr >
+            <td> 2. </td>
+			<td> A12.66403</td>
+			<td> A12.6401U</td>
+			<td> PEMROGRAMAN BERORIENTASI OBYEK </td> 
+			<td> 4 </td>
+			<td> B </td>
+        </tr>
+		 <tr >
+            <td> 3. </td>
+			<td> A12.66404</td>
+			<td> A12.6401U</td>
+			<td> PEMROGRAMAN WEB </td> 
+			<td> 4 </td>
+			<td> B </td>
+        </tr> 
+		 <tr >
+            <td> 4. </td>
+			<td> A12.66405</td>
+			<td> A12.6401U</td>
+			<td> PROBABILITAS DAN STATISTIKA </td> 
+			<td> 3 </td>
+			<td> B </td>
+        </tr> 
+		 <tr >
+            <td> 5. </td>
+			<td> A12.66402</td>
+			<td> A12.6604</td>
+			<td> IMPLEMENTASI DAN PENGUJIAN SISTEM </td> 
+			<td> 2 </td>
+			<td> B </td>
+        </tr> 
+		<tr >
+            <td> 6. </td>
+			<td> A12.66604</td>
+			<td> A12.6608</td>
+			<td> SISTEM PENDUKUNG KEPUTUSAN </td> 
+			<td> 2 </td>
+			<td> B </td>
+        </tr>   
+		<tr >
+            <td> 7. </td>
+			<td> A12.66702</td>
+			<td> A12.6601</td>
+			<td> MANAJEMEN PROYEK </td> 
+			<td> 3 </td>
+			<td> B </td>
+        </tr>
+		<tr >
+            <td> 8. </td>
+			<td> U201701</td>
+			<td> A12.6405</td>
+			<td> DASAR KEWIRAUSAHAAN </td> 
+			<td> 2 </td>
+			<td> B </td>
+        </tr>   		
+    </table>
+	
+</body>	
+</html>

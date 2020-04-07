@@ -1,0 +1,43 @@
+.form
+{
+	width:700px;
+	margin:30 auto; 
+	background:abuabu;
+	border:1px solid #222;
+	padding:15px;
+	border-radius:5px;
+ } 
+
+.form h1
+ {
+ text-align:center;
+ color:green; 
+ }
+  
+ 
+ #input[type= 'submit']
+{
+	background:blue;
+	color:#eee;
+	width:15%;
+	font-size:13pt;
+}
+ 
+#text
+{
+	margin-left:20px;
+}
+
+ .container
+{
+	font-size:14pt;
+}
+	
+.hasil
+{
+	background:abuabu;
+	height:70px;
+	text-align:center;
+	padding-top:15px;
+	font-size:13pt;
+}

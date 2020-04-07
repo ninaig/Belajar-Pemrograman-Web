@@ -1,0 +1,108 @@
+.form
+{ 
+	width:600px; 
+	margin:30 auto; 
+	background:white;
+	border:1px solid #222; 
+	padding:40px; 
+	border-radius:5px;
+ }
+ 
+  
+ .form h1
+ {
+ text-align:center;
+ color:green; 
+ }
+ 
+ #nim
+ {
+	width:30%;
+	height:40px;
+	border:none;
+	padding:10px;  
+	margin-bottom:3px; 
+	border-radius:3px; 
+	background:#E6E6FA;
+	size-font:14pt;
+	margin-left:120px;	
+}
+
+#tugas
+ {
+	width:30%;
+	height:40px;
+	border:none;
+	padding:10px;  
+	margin-bottom:3px; 
+	border-radius:3px; 
+	background:#E6E6FA;
+	size-font:14pt;
+	margin-left:78px;	
+}
+
+#uts
+ {
+	width:30%;
+	height:40px;
+	border:none;
+	padding:10px;  
+	margin-bottom:3px; 
+	border-radius:3px; 
+	background:#E6E6FA;
+	size-font:14pt;
+	margin-left:85px;	
+}
+
+#uas
+ {
+	width:30%;
+	height:40px;
+	border:none;
+	padding:10px;  
+	margin-bottom:3px;  
+	border-radius:3px; 
+	background:#E6E6FA;
+	size-font:14pt;
+	margin-left:85px;	
+}
+
+#catatankhusus
+{
+	margin-left:158px;
+}
+
+#catatankhusus1
+{
+	margin-left:55px;
+}
+
+
+.select
+{
+	width:30%;  
+	height:40px; 
+	border:none;
+	padding:10px;
+	margin-bottom:3px;
+	border-radius:3px;
+	background:#E6E6FA;
+	margin-left:58px;
+}
+ 
+.container
+{
+	size-font:14pt;
+}
+ 
+ 
+#input[type= 'submit']
+{
+	background:blue;
+	color:#eee;
+	border:none; 
+	width:13%;
+	padding:7px;
+	size-font:14pt;
+	
+}

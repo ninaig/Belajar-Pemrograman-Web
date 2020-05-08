@@ -1,0 +1,48 @@
+.container
+{ 
+	width: 400px;
+	margin:10 auto; 
+	background:#dcdcdc;
+	border:1px solid #222;
+	padding:90px;
+    border-radius:5px;
+ }  
+
+.form h1
+ {
+ text-align:center;
+ color:green; 
+ margin-bottom:35px;   
+ }
+
+ #input
+ {
+	width:80%;
+	height:5px;
+	border:none;
+	padding:20px;  
+	margin-bottom:10px;  
+	border-radius:3px;
+} 
+
+#inputlogin
+{
+	background:green;
+	height:35px;
+	padding: 10px;  
+	margin-bottom:20px;  
+	color:#eee;
+	width:22%;
+	font-size:11pt; 
+}
+
+.tombol
+{
+	background:green;
+	height:35px;
+	padding: 10px;  
+	margin-bottom:20px;  
+	color:#eee;
+	width:22%;
+	font-size:11pt; 
+}

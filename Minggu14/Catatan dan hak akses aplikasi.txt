@@ -1,0 +1,11 @@
+Link Domain : https://webnina06020.wearehardinata.com/login
+
+Hak akses : 1 (Guru Wali Kelas) 
+username : ninaig@gmail.com
+password : nina06020
+
+Hak akses : 2 (siswa)
+Hak siswa hanya untuk melihat ranking di dashboard 
+Salah satu siswa
+username : kenzi@gmail.com
+password : nina06020
